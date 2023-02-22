@@ -1,0 +1,41 @@
+.bgimg{
+    background-image: url(D:/workspace/theme2/image/Engine2.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 1100px;
+    position: relative;
+    overflow-x: hidden;
+
+}
+.ab1{
+    background-image: url(D:/workspace/theme2/image/sports-car.png);
+    
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: absolute;
+    height: 200px;
+    width: 670px;
+    top: 53%;
+    left: 39%;
+    
+    
+}
+.sec{
+    -webkit-transform: skewY(-45deg);
+    -ms-transform: skewX(-45deg);
+    transform: skewX(-45deg);
+}
+.below{
+    margin-top: 80%;
+}
+.emp{
+    height: 250px;
+}
+@media (max-width:600px) {
+    .emp{
+        height: 10px;
+    } 
+    
+}
+    
